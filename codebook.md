@@ -139,3 +139,12 @@ Below is the updated variables in the tidy data. The tidy data include 180 obsev
  $ angle(Z,gravityMean)                              : num  -0.3524 -0.218 0.0123 0.0689 0.065 ...
 
 In the tidy data the number of subject is 30 and the activities were categorized as following: walking, walking_upstairs, walking_downstairs, sitting, standing and laying.
+
+The data cleaning procedure is provided clearly and in detail in run_analysis.R.
+
+The common steps are:
+1) setting the working directory and loading essenstial packages such as data.table and dplyr.
+2) Link and associate the train and test files with the features files.
+3) Link and associate the activity and feature labels with the tests and train dataset.
+4) Labeling the activity and other variables in the dataset.
+5) writing the tidy data as text file.
